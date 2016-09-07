@@ -1,0 +1,19 @@
+//Mac OS X bits
+
+	#Install Django{
+		sudo easy_install pip		//first install pip(python packages)
+		sudo pip install Django		//install Django
+		django-admin.py --version		//check which version of Django installed
+		django-admin.py startpurject projectname		//creating django project
+		python manage.py runserver		//first go to project then run server
+		http://127.0.0.1:8000		//localhost address
+	}
+
+	#install flask{
+		sudo pip install flask		//first install pip if not installed then install flask
+	}
+
+	#locally installed Python modules{
+		pip freeze
+	}
+	
