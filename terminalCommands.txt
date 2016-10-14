@@ -1,19 +1,84 @@
-//Mac OS X bits
+// Mac OS X bits
 
-	#Install Django{
+	# Django{
 		sudo easy_install pip		//first install pip(python packages)
 		sudo pip install Django		//install Django
-		django-admin.py --version		//check which version of Django installed
+
+		pip list		//list of installed python packages
+		sudo pip install module_name 		//to install python module
+
 		django-admin.py startpurject projectname		//creating django project
-		python manage.py runserver		//first go to project then run server
+		python manage.py runserver		//first go to project folder then run server
 		http://127.0.0.1:8000		//localhost address
+
+		//to check which version of Django is installed
+		django-admin.py --version 		//first method
+		
+		python 		//second method
+		>>> import django 		
+		>>> print(django.get_version())
+
+		sudo pip install djangorestframework		//to install django rest framework
+
+		//to install mysql-python(mysqldb)
+		export PATH=$PATH:/usr/local/mysql/bin
+		sudo easy_install MySQL-python
+
+		python manage.py migrate		//migrate setting
+
+		sudo python manage.py runserver 127.0.0.1:80 		//to set default port to 80
 	}
 
-	#install flask{
+	#mysql-python{
+		mysql -u root -p 		//to open mysql cell
+		ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';	//to change mysql password for the first time
+		UPDATE mysql.user SET Password='prachi' WHERE User='root';		//to update mysql password
+		FLUSH PRIVILEGES;
+		\q 		//to exit mysql cell
+
+		sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist	  //to start mysql service 
+		sudo launchctl unload -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist  //to stop mysql service
+
+		CREATE DATABASE database_name; 		//to create datebase
+
+		python manage.py createsuperuser		//to create superuser
+	}
+
+	#install Flask{
 		sudo pip install flask		//first install pip if not installed then install flask
 	}
 
 	#locally installed Python modules{
 		pip freeze
 	}
+
+	#run and compile Python{
+		Python filename.py
+	}
 	
+	#Java version{
+		javac -version		//get java version which is intalled
+	}
+
+	#run and compile R{
+		Rscript filename.r
+	}
+
+// SSH commands
+	ssh username@serverAddress		//to connect server through ssh
+	sudo nano /etc/squid/squid.conf			//to change port address
+	sudo service squid restart 			//restart the server services
+
+	scp your_username@remotehost.edu:foobar.txt /local/dir		//download files or folder from server through ssh
+	scp baadalvm@10.17.50.54:scripts/autologin.py Desktop
+	
+	nano filename			//edit file in terminal
+
+//
+	ping -c 4 www.google.com
+
+
+/Applications/MAMP/Library/bin/mysql --version 		//To check MySQL version of MAMP
+
+
+
