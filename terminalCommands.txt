@@ -97,6 +97,9 @@
 			
 		* sublime text
 			brew cask install sublime-text
+			
+		* java
+			 brew cask install java
 
 	}
 
