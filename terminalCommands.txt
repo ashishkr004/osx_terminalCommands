@@ -94,6 +94,9 @@
 		How to install Homebrew on OS X?
 
 			ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+			
+		* sublime text
+			brew cask install sublime-text
 
 	}
 
