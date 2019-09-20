@@ -112,6 +112,9 @@
 			
 		* intellij-ide
 			brew cask install intellij-idea-ce
+			
+		* postman
+			brew cask install postman
 
 	}
 
