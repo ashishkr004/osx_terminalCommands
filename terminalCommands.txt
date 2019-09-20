@@ -103,6 +103,12 @@
 			 
 		* google chrome
 			brew cask install google-chrome
+			
+		* firefox
+			brew cask install firefox
+		
+		* postgresql
+			brew install postgresql
 
 	}
 
