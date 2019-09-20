@@ -121,6 +121,9 @@
 			
 		* mysql
 			brew install mysql
+			
+		* maven
+			brew install maven
 
 	}
 
