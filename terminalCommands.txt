@@ -115,6 +115,9 @@
 			
 		* postman
 			brew cask install postman
+			
+		* git
+			brew install git
 
 	}
 
