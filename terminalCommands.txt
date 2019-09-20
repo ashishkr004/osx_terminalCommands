@@ -1,5 +1,9 @@
 // Mac OS X bits
 
+	#python{
+		python
+	}
+
 	# Django{
 		sudo easy_install pip		//first install pip(python packages)
 		sudo pip install Django		//install Django
