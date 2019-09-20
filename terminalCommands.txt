@@ -90,5 +90,10 @@
 		git --version
 	}
 
+	# brew{
+		How to install Homebrew on OS X?
 
+			ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+	}
 
