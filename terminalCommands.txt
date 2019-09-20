@@ -118,6 +118,9 @@
 			
 		* git
 			brew install git
+			
+		* mysql
+			brew install mysql
 
 	}
 
