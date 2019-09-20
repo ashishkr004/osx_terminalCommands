@@ -109,6 +109,9 @@
 		
 		* postgresql
 			brew install postgresql
+			
+		* intellij-ide
+			brew cask install intellij-idea-ce
 
 	}
 
