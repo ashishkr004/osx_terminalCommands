@@ -81,4 +81,9 @@
 /Applications/MAMP/Library/bin/mysql --version 		//To check MySQL version of MAMP
 
 
+	#git{
+		git --version
+	}
+
+
 
