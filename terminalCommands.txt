@@ -124,6 +124,12 @@
 			
 		* maven
 			brew install maven
+			
+		* springboot
+			https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.0.2.RELEASE/spring-boot-cli-2.0.2.RELEASE-bin.zip
+
+			brew tap pivotal/tap
+			brew install springboot
 
 	}
 
