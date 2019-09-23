@@ -134,8 +134,13 @@
 	}
 	
 	postgresql{
+	
+		* important url
+			https://reviewdb.io/posts/1505070389284/setting-up-postgresql-in-macos
+			
 		* To start manually
 			pg_ctl -D /usr/local/var/postgres start
+			
 		* To stop manually
 			pg_ctl -D /usr/local/var/postgres stop
 			
@@ -144,5 +149,8 @@
 			
 		* And stop PostgreSQL:
 			brew services stop postgresql
+		
+		* Login to psql utility using the following command
+			psql postgres
 	}
 
