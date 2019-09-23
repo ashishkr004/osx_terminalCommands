@@ -132,4 +132,11 @@
 			brew install springboot
 
 	}
+	
+	postgresql{
+		* To start manually
+			pg_ctl -D /usr/local/var/postgres start
+		* To stop manually
+			pg_ctl -D /usr/local/var/postgres stop
+	}
 
