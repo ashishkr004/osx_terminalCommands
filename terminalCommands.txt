@@ -156,3 +156,13 @@
 
 pid kill command(when some process id is using some port)
 	* sudo kill -9 3711
+
+
+
+
+spring boot{
+	maven command:
+		mvn spring-boot:run
+	maven build command:
+		mvn clean install
+}
