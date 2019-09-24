@@ -156,8 +156,14 @@
 		* list all schema
 			\dn
 			
-		* list all table
+		* list all table in database
 			\dt
+			
+		* list all table in all schema in database
+			\dt *.*
+			
+		* list all table in particular schema in particular database
+			\dt schema.*
 	}
 
 pid kill command(when some process id is using some port)
