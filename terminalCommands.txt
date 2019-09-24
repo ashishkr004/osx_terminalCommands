@@ -152,6 +152,12 @@
 		
 		* Login to psql utility using the following command
 			psql postgres
+			
+		* list all schema
+			\dn
+			
+		* list all table
+			\dt
 	}
 
 pid kill command(when some process id is using some port)
