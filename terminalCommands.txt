@@ -178,3 +178,10 @@ spring boot{
 	maven build command:
 		mvn clean install
 }
+
+vim{
+	* save a file and exit
+		Press the ESC key
+		Type :wq
+		Press the ENTER key
+}
