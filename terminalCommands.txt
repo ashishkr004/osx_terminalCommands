@@ -153,6 +153,9 @@
 		* Login to psql utility using the following command, user is postgres
 			psql postgres
 			
+		* command to create user 
+		alter user postgres with encrypted password 'password'
+			
 		* list all database
 			\l
 			
