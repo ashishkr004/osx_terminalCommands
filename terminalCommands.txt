@@ -150,7 +150,7 @@
 		* And stop PostgreSQL:
 			brew services stop postgresql
 		
-		* Login to psql utility using the following command
+		* Login to psql utility using the following command, user is postgres
 			psql postgres
 			
 		* list all schema
