@@ -153,6 +153,9 @@
 		* Login to psql utility using the following command, user is postgres
 			psql postgres
 			
+		* list all database
+			\l
+			
 		* list all schema
 			\dn
 			
