@@ -191,3 +191,9 @@ vim{
 		Type :wq
 		Press the ENTER key
 }
+
+
+ssh{
+	adding identity
+	ssh-add ~/.ssh/id_rsa
+}
