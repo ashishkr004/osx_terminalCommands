@@ -197,3 +197,7 @@ ssh{
 	adding identity
 	ssh-add ~/.ssh/id_rsa
 }
+
+server command{
+curl ifconfig.co //check ip address
+}
